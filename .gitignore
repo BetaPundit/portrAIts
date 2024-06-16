@@ -1,0 +1,25 @@
+# Byte-compiled / optimized files
+__pycache__/
+*.py[cod]
+
+# Virtual environment
+venv/
+env/
+*.env
+
+# IDEs
+.vscode/
+.idea/
+
+# Miscellaneous
+*.DS_Store
+*.sqlite3
+
+# Logs
+logs/
+
+# Dependency directories
+# Remove these if you are using a package manager that manages dependencies outside of the project directory
+bin/
+lib/
+include/

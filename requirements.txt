@@ -1,0 +1,10 @@
+fastapi
+uvicorn
+pydantic
+motor
+python-jose
+passlib
+bcrypt==4.0.1
+python-decouple
+sqlalchemy
+psycopg2-binary
