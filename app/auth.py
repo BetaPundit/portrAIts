@@ -10,7 +10,7 @@ from decouple import config
 from . import crud, dependencies
 from typing import Annotated
 
-SECRET_KEY = config('SECRET_KEY')
+SECRET_KEY = '4bcfbdd7fb36da1e5fd95730d103e5250e0bf57a8739a4b0007897e893966893'
 ALGORITHM = config('ALGORITHM', default='HS256')
 ACCESS_TOKEN_EXPIRE_MINUTES = config('ACCESS_TOKEN_EXPIRE_MINUTES', default=30, cast=int)
 
