@@ -10,3 +10,7 @@ class Token(BaseModel):
 
 class TokenData(BaseModel):
     username: str | None = None
+
+class PromptSchema(BaseModel):
+    prompt: str | None
+    style: str | None

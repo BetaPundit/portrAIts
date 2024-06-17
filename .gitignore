@@ -23,3 +23,9 @@ logs/
 bin/
 lib/
 include/
+
+# Huggingface models, checkpoints & image uploads
+huggingface/
+checkpoints/
+models/
+images/

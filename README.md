@@ -61,7 +61,12 @@ ALGORITHM=HS256
 ACCESS_TOKEN_EXPIRE_MINUTES=30
 ```
 
-### Step 6: Run the app
+### Step 6: Download huggingface models
+```shell
+python download_models.py
+```
+
+### Step 7: Run the app
 ```shell
 uvicorn app.main:app --reload
 ```
